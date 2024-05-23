@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+:root{
+    --primaria: #c22760;
+    --secundaria: #ce76bb;
+    --media: #f0b9cf;
+    --ultima: #e0d1ed;
+}
+
+body {
+    background-color: var(--primaria);
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: var(--ultima);
+    font-size: larger;
+}
